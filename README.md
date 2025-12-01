@@ -34,3 +34,11 @@ Business Logic (Triggers I implemented)
 - trg_CheckReturnDate (For logic the return date can not be later than current date)
 - trg_LimitBooksPerBorrow (For logic each BorrowID can only borrow max 5 books)
 - trg_OnlyLibrarianCanCreateNotification (For logic only librarian can create notifications for users)
+
+- How to run
++ Copy the SQL file in the /Database/ folder
++ Run on SQL Server Management Studio
++ Database name: LibrarySystem
++ Open the .sln file in Visual Studio 2022
++ Restore NuGet packages
++ Update connection string inside:
