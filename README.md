@@ -4,23 +4,23 @@ Library Management System –  Using SQL Server
 This project is a  School Library Management System built using SQL Server and ASP.NET MVC .  
 I am responsible for **designing the entire database**, **stored logic**, and **triggers** to ensure that all library operations follow real-world rules.
 
-##Users  
+## Users  
 - Manage students, teachers, librarians  
 - Includes login, role, creation date, status (they are still active or not)
 
-##Books & Categories
+## Books & Categories
 - Manage BookID, Title, Author, TotalCopies, AvailableCopies,...
 - Category reference
 
-##Borrowing & BorrowDetails & BorrowRequest
+## Borrowing & BorrowDetails & BorrowRequest
 - Borrow request  
 - Borrowed books  
 - Due date, return date, quantity
 
-##Reservations  
+## Reservations  
 - Book reservations when no copies are available
 
-##BorrowRequests  
+## BorrowRequests  
 - Temporary request list for student borrow operations
 
 Business Logic (Triggers I implemented)
@@ -36,9 +36,9 @@ Business Logic (Triggers I implemented)
 - trg_OnlyLibrarianCanCreateNotification (For logic only librarian can create notifications for users)
 
 How to run
-+ Copy the SQL file in the /Database/ folder
-+ Run on SQL Server Management Studio
-+ Database name: LibrarySystem
-+ Open the .sln file in Visual Studio 2022
-+ Restore NuGet packages
-+ Update connection string inside
+1.Copy the SQL file in the /Database/ folder
+2.Run on SQL Server Management Studio
+3.Database name: LibrarySystem
+4.Open the .sln file in Visual Studio 2022
+5.Restore NuGet packages
+6.Update connection string inside
