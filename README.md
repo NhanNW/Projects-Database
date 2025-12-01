@@ -41,4 +41,4 @@ How to run
 + Database name: LibrarySystem
 + Open the .sln file in Visual Studio 2022
 + Restore NuGet packages
-+ Update connection string inside:
++ Update connection string inside
