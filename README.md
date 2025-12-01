@@ -4,23 +4,23 @@ Library Management System –  Using SQL Server
 This project is a  School Library Management System built using SQL Server and ASP.NET MVC .  
 I am responsible for **designing the entire database**, **stored logic**, and **triggers** to ensure that all library operations follow real-world rules.
 
-+ Users  
+##Users  
 - Manage students, teachers, librarians  
 - Includes login, role, creation date, status (they are still active or not)
 
-+ Books & Categories
+##Books & Categories
 - Manage BookID, Title, Author, TotalCopies, AvailableCopies,...
 - Category reference
 
-+ Borrowing & BorrowDetails & BorrowRequest
+##Borrowing & BorrowDetails & BorrowRequest
 - Borrow request  
 - Borrowed books  
 - Due date, return date, quantity
 
-+ Reservations  
+##Reservations  
 - Book reservations when no copies are available
 
-+ BorrowRequests  
+##BorrowRequests  
 - Temporary request list for student borrow operations
 
 Business Logic (Triggers I implemented)
