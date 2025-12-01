@@ -1,7 +1,7 @@
 Library Management System –  Using SQL Server 
  Database Design & Business Logic Implementation
 
-This project is a  School Library Management System built using SQL Server and .  
+This project is a  School Library Management System built using SQL Server and ASP.NET MVC .  
 I am responsible for **designing the entire database**, **stored logic**, and **triggers** to ensure that all library operations follow real-world rules.
 
 + Users  
