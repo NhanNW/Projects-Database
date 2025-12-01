@@ -36,9 +36,9 @@ Business Logic (Triggers I implemented)
 - trg_OnlyLibrarianCanCreateNotification (For logic only librarian can create notifications for users)
 
 How to run
-1.Copy the SQL file in the /Database/ folder
-2.Run on SQL Server Management Studio
-3.Database name: LibrarySystem
-4.Open the .sln file in Visual Studio 2022
-5.Restore NuGet packages
-6.Update connection string inside
+1. Copy the SQL file in the /Database/ folder
+2. Run on SQL Server Management Studio
+3. Database name: LibrarySystem
+4. Open the .sln file in Visual Studio 2022
+5. Restore NuGet packages
+6. Update connection string inside
